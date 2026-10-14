@@ -1,0 +1,12 @@
+n1 = float(input("Nota 1: "))
+n2 = float(input("Nota 2: "))
+
+media = float((n1 + n2) / 2)
+
+print(f"Média: {media}")
+if media >= 7:
+  print("Situação: APROVADO")
+elif media >= 5:
+  print("Situação: RECUPERAÇÃO")
+else:
+  print("Situação: REPROVADO")
